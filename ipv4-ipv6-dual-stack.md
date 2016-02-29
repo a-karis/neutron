@@ -254,9 +254,10 @@ ERROR (NotFound): floating ip not found (HTTP 404) (Request-ID: req-4ff86449-5e1
 PING 172.24.4.229 (172.24.4.229) 56(84) bytes of data.
 64 bytes from 172.24.4.229: icmp_seq=1 ttl=63 time=4.79 ms
 
-[root@ipv6-test ~]# ping6 2000:0:0:2::1
-PING 2000:0:0:2::1(2000:0:0:2::1) 56 data bytes
-64 bytes from 2000:0:0:2::1: icmp_seq=1 ttl=64 time=11.0 ms
+[root@rhel7 ~(keystone_demo)]# ping6 2000:0:0:2::3
+PING 2000:0:0:2::3(2000:0:0:2::3) 56 data bytes
+64 bytes from 2000:0:0:2::3: icmp_seq=1 ttl=64 time=5.68 ms
+
 
 
 ```
